@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'auth_form_model.dart';
 
-class AuthForm extends StatelessWidget {
+class AuthForm extends StatefulWidget {
   final AuthFormModel model;
   final void Function() onSubmit;
 
